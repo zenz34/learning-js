@@ -10,7 +10,15 @@ parameterized?
 
 3 this for invocation
 
-Use expression
+
+
+Best Practice for declaration:
+
+Use expression / function literal notation
+
+no hoisting
+
+
 
 let multiply = function\(x, y\) {return x\*y;};
 
@@ -31,6 +39,30 @@ Functions is an Object \( with Code block\)
 \_\_\_\_
 
 
+
+return undefined if no return values
+
+
+
+Usage for Functions
+
+functions
+
+methods
+
+constructor
+
+
+
+call functions
+
+functions
+
+methods
+
+constructor
+
+apply\(\), call\(\)
 
 
 
