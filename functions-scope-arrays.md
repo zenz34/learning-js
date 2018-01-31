@@ -16,13 +16,19 @@ Best Practice for declaration:
 
 Use expression / function literal notation
 
-no hoisting
+**no hoisting**
 
 
 
 let multiply = function\(x, y\) {return x\*y;};
 
-Functions is an Object \( with Code block\)
+
+
+
+
+
+
+**Functions is an Object \( with Code block\)**
 
 ---
 
@@ -38,11 +44,15 @@ Functions is an Object \( with Code block\)
 
 \_\_\_\_
 
+![](/assets/function_in_memory.png)
+
+
+
+
+
 
 
 return undefined if no return values
-
-
 
 Usage for Functions
 
@@ -54,15 +64,23 @@ constructor
 
 
 
-call functions
 
-functions
 
-methods
+methods for calling functions
 
-constructor
+function\(\)
+
+obj.method\(\)
+
+obj constructor
 
 apply\(\), call\(\)
+
+    when call f\(\) f.call\(\) is used internally
+
+
+
+
 
 
 
