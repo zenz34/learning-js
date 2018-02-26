@@ -6,23 +6,29 @@ let app = express\(\);
 
 app.use\(body-parser.json\(\)\);
 
-
-
 Then error
-
-
 
 I have to use it in the beginning of the app.js
 
 where is the starting point of this whole app.
 
-
-
 So there is only one express?
 
-I can not use nestedly calling it
+I can not use nestedly calling it??
 
 
+
+
+
+request.body  needs body-parser
+
+
+
+/:userId
+
+route parameter
+
+can be found at req.params.userId
 
 
 
