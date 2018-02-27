@@ -1,16 +1,6 @@
-path
+```
+path.join(__dirname, '../public')
+```
 
-.
 
-join
-
-\(
-
-\_\_dirname
-
-,
-
-'../public'
-
-\)
 
