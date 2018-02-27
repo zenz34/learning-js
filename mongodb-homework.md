@@ -26,7 +26,7 @@ can be found at req.params.userId
 
 For Mongoose:
 
-model.find\(\) return another what?
+model.find\(\) return another what?   return a Query
 
 if I wanna send the result back
 
@@ -52,11 +52,11 @@ maybe nothing?
 
 I need to check out the document of Mongoose later
 
-
-
-
-
 find\(\)  if not found, \[\] empty object/array returned
 
 findById\(\) if not found, null returned
+
+
+
+
 
