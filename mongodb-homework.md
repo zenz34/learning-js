@@ -24,8 +24,6 @@ route parameter
 
 can be found at req.params.userId
 
-
-
 For Mongoose:
 
 model.find\(\) return another what?
@@ -48,8 +46,6 @@ it's in the callback fun of it
 
 like this, the second parameter of callback fun "users" is the result.
 
-
-
 what dose it return?
 
 maybe nothing?
@@ -59,4 +55,8 @@ I need to check out the document of Mongoose later
 
 
 
+
+find\(\)  if not found, \[\] empty object/array returned
+
+findById\(\) if not found, null returned
 
